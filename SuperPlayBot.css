@@ -547,13 +547,15 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-label-1 {
-  text-transform: uppercase;
   font-size: 1rem;
-  font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .u-section-7 .u-countdown-separator-1 {
@@ -562,6 +564,7 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-item-2 {
@@ -574,13 +577,15 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-label-2 {
-  text-transform: uppercase;
   font-size: 1rem;
-  font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .u-section-7 .u-countdown-separator-2 {
@@ -589,6 +594,7 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-item-3 {
@@ -601,13 +607,15 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-label-3 {
-  text-transform: uppercase;
   font-size: 1rem;
-  font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .u-section-7 .u-countdown-separator-3 {
@@ -616,6 +624,7 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-item-4 {
@@ -628,13 +637,15 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-label-4 {
-  text-transform: uppercase;
   font-size: 1rem;
-  font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .u-section-7 .u-countdown-separator-4 {
@@ -643,6 +654,7 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-item-5 {
@@ -655,13 +667,15 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-label-5 {
-  text-transform: uppercase;
   font-size: 1rem;
-  font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .u-section-7 .u-countdown-separator-5 {
@@ -670,6 +684,7 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-item-6 {
@@ -682,18 +697,20 @@
   line-height: 1;
   font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
 }
 
 .u-section-7 .u-countdown-label-6 {
-  text-transform: uppercase;
   font-size: 1rem;
-  font-weight: 700;
   font-family: Roboto;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .u-section-7 .u-countdown-message-1 {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 6rem;
 }
 
 @media (max-width: 1199px) {
@@ -739,7 +756,7 @@
 
 @media (max-width: 575px) {
   .u-section-7 .u-layout-cell-1 {
-    min-height: 242px;
+    min-height: 265px;
   }
 
   .u-section-7 .u-container-layout-1 {
@@ -748,13 +765,14 @@
   }
 
   .u-section-7 .u-text-1 {
-    width: 320px;
+    width: auto;
+    margin-top: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .u-section-7 .u-countdown-1 {
-    margin-top: 37px;
-    margin-left: -22px;
-    margin-right: -22px;
+    margin-top: 22px;
     padding: 0;
   }
 
