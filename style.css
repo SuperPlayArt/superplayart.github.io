@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    background: -webkit-linear-gradient(5deg, #7d00fa, #0dc92c);
+    background: -moz-linear-gradient(5deg, #7d00fa, #0dc92c);
+    background: -ms-linear-gradient(5deg, #7d00fa, #0dc92c);
+    background: -o-linear-gradient(5deg, #7d00fa, #0dc92c);
+    background: linear-gradient(5deg, #7d00fa, #0dc92c);
+    
+
+}
+
+.logo{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+#logo{
+    padding: 10px;
+    height: 100px;
+}
+table{
+    text-align: center;
+}
+#lescases{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    margin: 10px;
+    border-radius: 30px;
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    
+}
+td{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 5px;
+    height: auto;
+}
+#boutons{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.637);
+    justify-content: center;
+    margin: 10px;
+    border-radius: 30px;
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+}
+#essai{
+    font-size: 30px;
+    padding: 5px;
+    font-weight: 700;
+}
+.essai .bouton:hover{
+    background-color: #90f;
+    color: white;
+}
+
+.myButton{
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    font-size: 20px;
+}
+
+.myButton:hover{
+    color: #90f;
+}
+
+.partie{
+    background-color: rgba(0, 0, 0, 0.637);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 30px;
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    flex-wrap: wrap;
+}
+
+.addmot{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+#pendu{
+    width: 200px;
+}
+.essai{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 10px;
+}
+.historique{
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+.info{
+    height: 300px;
+}
+
+
+essai{
+    color: red;
+}
+
+essai2{
+    color: green;
+}
+
+#mot{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    border: 0px;
+    border-radius: 10px;
+}
+.bouton{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+}
