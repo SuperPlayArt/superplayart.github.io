@@ -108,7 +108,7 @@ ul {
     justify-content: center;
     margin: 20px;
     border-radius: 30px;
-    
+    height: 50%;
     flex-wrap: wrap;
 }
 .content{
@@ -149,7 +149,7 @@ ul {
 }
 
 #A{
-    height: 300px;
+    width: 90%;
     margin: 10px;
     border-radius: 20px;
 }
@@ -165,7 +165,7 @@ ul {
 }
 
 .artimg{
-    height: 70%;
+    height: 60%;
 }
 
 .title{
@@ -201,6 +201,7 @@ ul {
     padding: 10px;
     text-align: center;
     margin: 10px;
+    width: 30%;
 }
 
 @keyframes fadeInAnimation { 
