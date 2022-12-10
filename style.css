@@ -25,6 +25,12 @@ h3{
     margin: 10px;
 }
 
+h5{
+    font-family: 'Martian Mono', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0px;
+}
+
 .transpcontent{
     display: flex;
     flex-direction: column;
@@ -36,7 +42,18 @@ h3{
     align-items: center;
 }
 
+.miniabtn{
+    font-family: 'Martian Mono', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    font-weight: 900;
+}
 
+.miniabtn:hover{
+    color: #646464a5;
+}
 
 .mySlides{
     display: flex;
@@ -211,6 +228,12 @@ ul {
     width: 30%;
 }
 
+.miniaimg{
+    width: 90%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
 @keyframes fadeInAnimation { 
     0% { 
     opacity: 0; 
@@ -231,10 +254,6 @@ ul {
     .minia{
         width: 90%;
     }
-    
-    .sliderbutton{
-        
-    }
 
     .sliderbutton img{
         width: 20px;
@@ -246,4 +265,5 @@ ul {
     .mySlides{
         width: 80%;
     }
+
 }
