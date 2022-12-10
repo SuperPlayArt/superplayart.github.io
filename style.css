@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+h1{
+    font-family: 'Martian Mono', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 10px;
+}
+
+h2{
+    font-family: 'Martian Mono', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px;
+}
+
+h3{
+    font-family: 'Martian Mono', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.transpcontent{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 50%;
+    height: 90%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.mySlides{
+    width: 90%;
+    height: 300px;
+    display: none;
+    animation: fadeInAnimation ease 1s; 
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 1;   
+}
+
+.logo{
+    text-align: center;
+    margin: 10px;
+}
+.logoimg{
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border: 10px;
+    border-radius: 30px;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Martian Mono', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    border: 10px;
+    border-radius: 20px;
+
+  }
+  
+  li a:hover:not(.active) {
+    animation: fadeInAnimation ease 1s; 
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 1;   
+    background-color: #000000a5;
+    color: white;
+  }
+  
+  .active {
+    border: 10px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    margin: 10px;
+  }
+  .nav{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+.slider{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 30px;
+    
+    flex-wrap: wrap;
+}
+.content{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.artbutton{
+    background-color: #000000;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Martian Mono', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    border: 0px;
+    text-decoration: none
+}
+
+.artbutton:hover{
+    background-color: #000000a5;    
+}
+
+.article{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.txt-cent{
+    text-align: center;
+    margin: 10px;
+}
+
+#A{
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+.sliderbutton{
+    background-color: transparent;
+    border: 0px;
+}
+
+.sliderbutton img{
+    width: 30px;
+}
+
+.artimg{
+    height: 70%;
+}
+
+.title{
+    margin: 10px;
+    width: 100%;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+
+}
+.transbtn{
+    background-color: transparent;
+    border: 0px;
+    margin: 10px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.minia{
+    background-color: #000000; 
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+    opacity: 0; 
+    } 
+    100% { 
+    opacity: 1; 
+    } }
