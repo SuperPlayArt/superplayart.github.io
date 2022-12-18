@@ -10,7 +10,7 @@ import re
 import random
 x = datetime.datetime.now()
 
-GIT_LINK = "./"
+GIT_LINK = "C:/Users/trist/Documents/sps_master/superplayart.github.io/"
 COMMIT_MSG ="TEST"
 
 class gui:
