@@ -1,0 +1,11 @@
+LOG :
+18/12/2022 20:15:41 - Miniature d'article créé avec succées (C:/Users/trist/Documents/sps_master/superplayart.github.io/index.html : zzz,article,C:/Users/trist/Documents/sps_master/superplayart.github.io/src/img/pic/xsara_mod/1.png,zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz)
+18/12/2022 20:00:24 - Miniature d'article créé avec succées (C:/Users/trist/Documents/sps_master/TheGreatChips/index.html : HHHHH,<bo,C:/Users/trist/OneDrive/sps/src/img/back.png,HHHHHHHHHHHHHHHHHHHH)
+18/12/2022 19:58:49 - Miniature d'article créé avec succées (C:/Users/trist/Documents/sps_master/TheGreatChips/index.html : Hello,<body>,<function gui.test.<locals>.img at 0x000002010E4C57E0>,fdghsjh)
+18/12/2022 19:49:21 - Miniature d'article créé avec succées (C:/Users/trist/Documents/sps_master/TheGreatChips/18122022941.html : ,,,)
+18/12/2022 19:39:26 - Miniature d'article créé avec succées (C:/Users/trist/Documents/sps_master/TheGreatChips/index.html : bfgj,<body,kezkl,gfdj)
+18/12/2022 18:45:31 - Miniature d'article créé avec succées (C:/Users/trist/Documents/TheGreatChips_TestSpace/index.html : fjkh,<body,fdsfhk,fgkkj)
+18/12/2022 18:42:18 - Miniature d'article créé avec succées (C:/Users/trist/Documents/TheGreatChips_TestSpace/index.html : gtre,<bod,zar,uytr)
+18/12/2022 18:42:18 - Miniature d'article créé avec succées (C:/Users/trist/Documents/TheGreatChips_TestSpace/index.html : gtre,<bod,zar,uytr)
+18/12/2022 17:54:18 - Miniature d'article créé avec succées (C:/Users/trist/Documents/TheGreatChips_TestSpace/index.html : Eh bah bonjour,ART20,./src/img/tlou2.png,Petit test de ma création magnifique ( The Great Chips ))
+18/12/2022 17:54:18 - Miniature d'article créé avec succées (C:/Users/trist/Documents/TheGreatChips_TestSpace/index.html : Eh bah bonjour,ART20,./src/img/tlou2.png,Petit test de ma création magnifique ( The Great Chips ))
