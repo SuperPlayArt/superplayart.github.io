@@ -38,6 +38,8 @@ class gui:
             file=filedialog.askopenfilename(initialdir="./")
             where = file
             print(file)
+        
+        where.grid(row=0, column=2)
         where2.grid(row=1, column=2)
         img_link.grid(row=2, column=2)
         title.grid(row=3, column=2)
@@ -86,6 +88,7 @@ class commande:
         commande.article(title, content, img,auteur,html)
         commande.log(f"Miniature d'article créé avec succées ({filename} : {title},{where},{img},{content})")
         print("Votre café est prêt... euh non mais l\'article à bien était crée") 
+        commande.git_push()
 
     def article(title, content, img, auteur,html):
         template = "./template.html"
@@ -115,7 +118,7 @@ class commande:
             try:
                 repo = Repo(GIT_LINK)
                 repo.git.add(all=True)
-                repo.index.commit(COMMIT_MSG)
+                repo.index.commit(f"{x.strftime('%d/%m/%Y à %H:%M')}")
                 origin = repo.remote(name='origin')
                 origin.push()
             except:
