@@ -1,3 +1,0 @@
-LOG :
-18/12/2022 17:54:18 - Miniature d'article créé avec succées (C:/Users/trist/Documents/TheGreatChips_TestSpace/index.html : Eh bah bonjour,ART20,./src/img/tlou2.png,Petit test de ma création magnifique ( The Great Chips ))
-18/12/2022 17:54:18 - Miniature d'article créé avec succées (C:/Users/trist/Documents/TheGreatChips_TestSpace/index.html : Eh bah bonjour,ART20,./src/img/tlou2.png,Petit test de ma création magnifique ( The Great Chips ))
