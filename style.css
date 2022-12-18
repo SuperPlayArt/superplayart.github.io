@@ -47,7 +47,8 @@ h5{
     text-decoration: none;
     font-size: 15px;
     color: rgb(255, 255, 255);
-    padding: 30px;
+    margin-top: 5px;
+    padding: 0px;
     font-weight: 900;
 }
 
@@ -142,6 +143,28 @@ ul {
     border-radius: 30px;
 }
 
+.topart{
+    display: flex;
+    background-image: url(./src/img/tlou1.png);
+    background-size: 100%;
+    background-position-x: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    border-radius: 30px;
+    height: 200px;
+}
+
+.topart h1{
+    font-size: 50px;
+}
+
+.txt{
+    text-align: justify;
+    margin: 10px;
+}
+
 .artbutton{
     background-color: #000000;
     padding: 10px;
@@ -163,18 +186,13 @@ ul {
     margin: 10px;
     justify-content: center;
     flex-wrap: wrap;
-    
+    align-items: center;
 }
+
 
 .txt-cent{
     text-align: center;
     margin: 10px;
-}
-
-#A{
-    width: 90%;
-    margin: 10px;
-    border-radius: 20px;
 }
 
 
@@ -219,18 +237,88 @@ ul {
   }
 
 .minia{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background-color: #000000; 
     border-radius: 30px;
     color: white;
     padding: 10px;
-    text-align: center;
     margin: 10px;
-    width: 30%;
+    background-size: 100%;
+    background-repeat: space;
+    height: auto;
+    width: 40%;
+    animation: fadeInAnimation ease 1s; 
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 1;   
+    border-style: solid;
+    border-width: 6px;
+
+}
+
+.minia .artimg{
+    height: 250px;
+    image-rendering: optimizeQuality;
+    object-fit: cover;
+    border-radius: 30px;
+}
+h6{
+    font-family: 'Martian Mono', Arial, Helvetica, sans-serif;
+    
+    margin: 10px;
+}
+p{
+    font-family: 'Martian Mono', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px;
+
+}
+a{
+    
+    margin: 10px;
+}
+
+.minia:hover{
+    border-style: solid;
+    border-width: 6px;
+    border-color: #9900ff;
+}
+
+.minialogo{
+    margin: 10px;
+    width: 40%;
+}
+
+.minia  h3{
+    margin-top: 0px;
 }
 
 .miniaimg{
-    width: 90%;
+    width: 99%;
     margin: 10px;
+    border-radius: 20px;
+}
+
+.content .logoimg{
+    width: 30%;
+    margin: 10px;
+}
+.imgwxyz{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    margin: 20px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.imgwxyz .artimg{
+    margin: 10px;
+    width: 300px;
+    height: auto;
     border-radius: 20px;
 }
 
@@ -253,6 +341,16 @@ ul {
 
     .minia{
         width: 90%;
+        height: auto;
+
+    }
+
+
+
+    .minia .artimg{
+        height: 250px;
+        image-rendering: optimizeQuality;
+        object-fit: cover;
     }
 
     .sliderbutton img{
@@ -265,5 +363,8 @@ ul {
     .mySlides{
         width: 80%;
     }
-
+    
+    .content .logoimg{
+        width: 40%;
+    }
 }
