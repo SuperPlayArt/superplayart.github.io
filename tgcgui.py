@@ -11,7 +11,7 @@ import random
 x = datetime.datetime.now()
 
 GIT_LINK = "C:/Users/trist/Documents/sps_master/superplayart.github.io/"
-COMMIT_MSG ="TEST"
+COMMIT_MSG ="Fa"
 
 class gui:
 
