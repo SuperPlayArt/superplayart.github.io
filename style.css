@@ -145,12 +145,13 @@ ul {
 
 .topart{
     display: flex;
-    background-image: url(./src/img/tlou1.png);
+    background-image: url(./src/img/art_back.png);
     background-size: 100%;
     background-position-x: center;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    object-fit: cover;
     margin: 20px;
     border-radius: 30px;
     height: 200px;
@@ -340,7 +341,7 @@ a{
     }
 
     .topart h1{
-        font-size: 30px;
+        font-size: 27px;
         margin: 0px;
     }
 
