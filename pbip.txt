@@ -1,4 +1,1 @@
-
-
-Contenu modifié
-Contenu modifié
+PUBLIC_IP="8.8.8.8"
