@@ -1,4 +1,1 @@
-red
-
-Contenu modifié
-Contenu modifié
+PUBLIC_IP=response.text
