@@ -1,7 +1,9 @@
 #!/bin/bash
 
 if ! [ -e "/etc/starcmd/" ]; then
+
 mkdir /etc/starcmd/
+
 fi
 
 if ! [ -e "/etc/starcmd/public_ip.conf" ]; then
@@ -74,19 +76,21 @@ fi
 
 api_url+="&cred=$CRED_API"
 
-command_output=$(curl -s "$api_url") || {
+command_output=$(curl -s "$api_url" ) || {
     echo "Erreur lors de l'exécution de la commande curl. Tentative de récupération d'une nouvelle IP..."
-    rm public_ip.conf
-    wget "https://superplayart.github.io/public_ip.conf" || {
+    rm /etc/starcmd/public_ip.conf
+    wget -q https://superplayart.github.io/public_ip.conf -O /etc/starcmd/public_ip.conf > /dev/null 2>&1 || {
         echo "Impossible de récupérer une nouvelle IP. Vérifiez votre connexion Internet."
         exit 1
     }
     source public_ip.conf
-    command_output=$(curl -s "$api_url") || {
+    command_output=$(curl -s "$api_url"  > /dev/null 2>&1) || {
         echo "Nouvelle IP récupérée, mais erreur lors de l'exécution de la commande curl."
         exit 1
     }
 }
 
 echo "$command_output"
+
+
 
