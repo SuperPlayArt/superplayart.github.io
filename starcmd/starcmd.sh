@@ -1,20 +1,24 @@
 #!/bin/bash
 
-if ! [ -e "public_ip.conf" ]; then
-    wget "https://superplayart.github.io/public_ip.conf" || {
+if ! [ -e "/etc/starcmd/" ]; then
+mkdir /etc/starcmd/
+fi
+
+if ! [ -e "/etc/starcmd/public_ip.conf" ]; then
+    wget -O /etc/starcmd/public_ip.conf "https://superplayart.github.io/public_ip.conf" || {
         echo "Erreur lors du téléchargement du fichier public_ip.conf"
         exit 1
     }
 fi
 
-if [ ! -e "scmd.conf" ]; then
+if [ ! -e "/etc/starcmd/scmd.conf" ]; then
     echo "Veuillez saisir votre clé API pour utiliser ce fabuleux système :"
     read -r api_key
-    echo "CRED_API=$api_key" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' >> scmd.conf
+    echo "CRED_API=$api_key" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' >> /etc/starcmd/scmd.conf
 fi
 
-source public_ip.conf
-source scmd.conf
+source /etc/starcmd/public_ip.conf
+source /etc/starcmd/scmd.conf
 
 while getopts ":c:t:s:d:" option; do
     case "$option" in
@@ -32,6 +36,7 @@ while getopts ":c:t:s:d:" option; do
         s) # Option -s
             sys_type="$OPTARG"
             ;;
+        
         \?) # Option non reconnue
             echo "Option non valide: -$OPTARG"
             exit 1
@@ -84,5 +89,4 @@ command_output=$(curl -s "$api_url") || {
 }
 
 echo "$command_output"
-
 
